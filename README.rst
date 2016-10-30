@@ -16,9 +16,14 @@ Works on Linux, Windows, Mac OSX
 Setup
 =====
 
+Clone the repo::
+
+    git clone https://github.com/davey-dev/scrapy-redflagdeals.git
+    cd scrapy-redflagdeals
+
 It is recommended to use virtualenv::
 
-    virtualenv -p python3 venv
+    virtualenv venv
     source venv/bin/activate
 
 Install the requirements::
