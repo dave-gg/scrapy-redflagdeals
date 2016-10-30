@@ -1,0 +1,7 @@
+venv/
+.idea/
+*.log
+*.pyc
+deals.json
+sendgrid.env
+db.json

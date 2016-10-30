@@ -1,0 +1,32 @@
+mail:
+    from: notify@example.com
+
+tiny_db:
+    db_file: db.json
+
+mongo:
+    host: localhost
+    port: 27017
+    name: redflagdeals
+    collection: users
+    user: blah
+    password: pahh
+
+scrapy:
+    base_url: http://forums.redflagdeals.com
+    forums:
+        - hot-deals-f9
+        - hot-deals-f9/2/
+        - freebies-f12
+        - pc-video-games-f69
+        - computers-electronics-f14
+    allowed_domains: redflagdeals.com
+    log_file: spider.log
+
+user:
+   name: Haruki Murakami
+   email: sendmedeals@example.com
+   keywords:
+       - costco
+       - ssd
+       - starbucks
