@@ -1,11 +1,12 @@
-scrapy-redflagdeals
+Scrapy-Redflagdeals
 ====================
 
-This is a `Scrapy`_ project to scrape RedFlagDeals.com forums.
+This is a `Scrapy`_ project to scrape `Redflagdeals.com`_ forums.
 
 This project is for educational purposes.
 
 .. _Scrapy: http://www.scrapy.org
+.. _Redflagdeals.com: http://forums.redflagdeals.com
 
 Requirements
 ============
@@ -15,12 +16,12 @@ Works on Linux, Windows, Mac OSX
 Setup
 =====
 
-It is recommended to use virtualenv
+It is recommended to use virtualenv::
 
     virtualenv -p python3 venv
     source venv/bin/activate
 
-Install the requirements:
+Install the requirements::
 
     pip install -r requirements.txt
 
@@ -32,10 +33,9 @@ If you are wondering how the scraper works, check out the `Scrapy Tutorial`_.
 Usage
 =====
 
-To run the spider:
+To run the spider::
 
     python crawl.py
-
 
 Configuration
 =============
@@ -65,7 +65,7 @@ Sign up to `SendGrid`_ to get an API key to use this function.
 
 .. _SendGrid: http://sendgrid.com/
 
-Update the development environment with your SENDGRID_API_KEY, for example:
+Update the development environment with your SENDGRID_API_KEY, for example::
 
     echo "export SENDGRID_API_KEY='YOUR_API_KEY'" > sendgrid.env
     echo "sendgrid.env" >> .gitignore
