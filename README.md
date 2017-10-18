@@ -1,26 +1,15 @@
-scrapy-redflagdeals
-====================
+# scrapy-redflagdeals
 
-This is a `Scrapy`_ project to scrape `Redflagdeals.com`_ forums.
+This is a Scrapy project to scrape Redflagdeals.com.
 
 This project is for educational purposes.
 
-.. _Scrapy: http://www.scrapy.org
-.. _Redflagdeals.com: http://forums.redflagdeals.com
+## Usage
 
-Usage
-=====
+To run the spider:
+```python crawl.py```
 
-To run the spider::
-
-    python crawl.py
-
-If you are wondering how the scraper works, check out the `Scrapy Tutorial`_.
-
-.. _Scrapy Tutorial: http://doc.scrapy.org/en/latest/intro/tutorial.html
-
-Configuration
-=============
+## Configuration
 
 To configure this scraper, modify config.yml.
 
@@ -28,24 +17,15 @@ This will only crawl the list of forums specified.
 
 Keywords also listed in config.yml.
 
-Storage
-=======
+## Storage
 
-All deals are stored in `TinyDB`_.
+All deals are stored in [TinyDB](https://github.com/msiemens/tinydb)
 
-Storage can easily be adapted to use another database program such as `MongoDB`_.
+Storage can easily be adapted to use another database program such as MongoDB.
 
-.. _TinyDB: https://github.com/msiemens/tinydb
+## Notifications
 
-.. _MongoDB: https://www.mongodb.com/
-
-Notifications
-=============
-
-Sign up to `SendGrid`_ to get an API key to use this function.
-
-
-.. _SendGrid: http://sendgrid.com/
+Sign up to SendGrid to get an API key to use this function.
 
 Update the development environment with your SENDGRID_API_KEY, for example::
 
@@ -53,6 +33,5 @@ Update the development environment with your SENDGRID_API_KEY, for example::
     echo "sendgrid.env" >> .gitignore
     source ./sendgrid.env
 
-License
-=======
+### License
 Apache Version 2.0
