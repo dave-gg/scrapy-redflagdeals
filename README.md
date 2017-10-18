@@ -1,4 +1,4 @@
-Scrapy-Redflagdeals
+scrapy-redflagdeals
 ====================
 
 This is a `Scrapy`_ project to scrape `Redflagdeals.com`_ forums.
@@ -8,39 +8,16 @@ This project is for educational purposes.
 .. _Scrapy: http://www.scrapy.org
 .. _Redflagdeals.com: http://forums.redflagdeals.com
 
-Requirements
-============
-Python 2.7 or Python 3.3+
-Works on Linux, Windows, Mac OSX
-
-Setup
-=====
-
-Clone the repo::
-
-    git clone https://github.com/davey-dev/scrapy-redflagdeals.git
-    cd scrapy-redflagdeals
-
-It is recommended to use virtualenv::
-
-    virtualenv venv
-    source venv/bin/activate
-
-Install the requirements::
-
-    pip install -r requirements.txt
-
-If you are wondering how the scraper works, check out the `Scrapy Tutorial`_.
-
-.. _Scrapy Tutorial: http://doc.scrapy.org/en/latest/intro/tutorial.html
-
-
 Usage
 =====
 
 To run the spider::
 
     python crawl.py
+
+If you are wondering how the scraper works, check out the `Scrapy Tutorial`_.
+
+.. _Scrapy Tutorial: http://doc.scrapy.org/en/latest/intro/tutorial.html
 
 Configuration
 =============
