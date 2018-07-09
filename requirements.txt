@@ -2,4 +2,4 @@ lxml==4.2.3
 scrapy==1.5.0
 sendgrid==5.4.1
 pyyaml==3.13
-tinydb==3.2.1
+tinydb==3.9.0.post1
